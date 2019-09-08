@@ -95,7 +95,21 @@ option{
     border-radius: 3px;
     padding: 9px;
 }
-#task-name{
+.task-name{
     font-size: 30px;
     margin-bottom: 10px;
+}
+.check-box{
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    color: red;
+    display: inline-block;
+}
+.outer{
+    position: relative;
+    width: 17px;
+    height: 37px;
+    margin-right: 10px;
+    display: inline-block;
 }
